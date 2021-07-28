@@ -1,0 +1,58 @@
+ 
+
+*
+{
+    background-color: black;
+}
+
+.full{
+    background-color: blue;
+    max-width: 100cm;
+    min-width: 10cm;
+    max-height: 30cm;
+    min-height: 9cm;
+    margin: 1cm;
+    padding: 0.7cm;
+    border-radius: 10px;
+}
+
+.input{
+    background-color: crimson;
+    min-width: 15cm;
+    min-height: 2cm;
+    border-radius: 20px;
+    padding: 0.3cm;
+}
+
+.user-logo{
+    background-color: black;
+    height: 0.9cm;
+    width: 0.9cm;
+    border-radius: 50%;
+    
+}
+
+.cpan{
+    margin-top: 4px;
+    max-width: 2.5cm;
+    border-radius: 8px;
+}
+
+.cbut{
+    background-color: black;
+    border-radius: 8px;
+    color: white;
+}
+
+.output{
+    margin-top: 1cm;
+    margin-left: -0.1cm;
+    margin-right: -0.1cm;
+    background-color: orange;
+    min-width: 15cm;
+    min-height: 6cm;
+    border-radius: 20px;
+    padding: 0.3cm;
+}
+
+
