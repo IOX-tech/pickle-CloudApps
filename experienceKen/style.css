@@ -18,8 +18,8 @@
 
 .input{
     background-color: crimson;
-    min-width: 15cm;
-    min-height: 2cm;
+    min-width: 8cm;
+    min-height: 1cm;
     border-radius: 20px;
     padding: 0.3cm;
 }
@@ -33,12 +33,16 @@
 }
 
 .cpan{
+    position: relative;
     margin-top: 4px;
-    max-width: 2.5cm;
+    max-width: 7.5cm;
     border-radius: 8px;
+    left: 1cm;
+    bottom: 0.23cm;
 }
 
 .cbut{
+    border: black;
     background-color: black;
     border-radius: 8px;
     color: white;
@@ -49,10 +53,36 @@
     margin-left: -0.1cm;
     margin-right: -0.1cm;
     background-color: orange;
-    min-width: 15cm;
+    min-width: 8.5cm;
     min-height: 6cm;
+    border-radius: 20px;
+    padding: 0.5cm;
+}
+
+
+.short{
+    background-color: yellowgreen;
+    padding: 0.25cm;
+    min-width: 8cm;
+    min-height: 1cm;
+    max-height: 2.5cm;
+    border-radius: 20px;
+}
+
+.ans-box{
+    background-color: yellowgreen;
+    min-width: 8cm;
+    min-height: 6cm;
+    margin-top: 0.3cm;
     border-radius: 20px;
     padding: 0.3cm;
 }
 
-
+.image{
+    background-color: green;
+    width: 2.5cm;
+    height: 2.5cm;
+    position: relative;
+    float: right;
+    border-radius: 5px;
+}
