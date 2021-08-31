@@ -1,5 +1,4 @@
- 
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Teko:wght@300;500;700&display=swap');
 *
 {
     background-color: black;
@@ -16,12 +15,64 @@
     border-radius: 10px;
 }
 
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: blue;
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: white;
+    border-radius: 20px;
+}
+
 .input{
     background-color: crimson;
+    padding: 5px;
+    padding-bottom: 0%;
     min-width: 8cm;
-    min-height: 1cm;
+    min-height: 0.4cm;
+    max-height: 1.2cm;
     border-radius: 20px;
-    padding: 0.3cm;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+.input ::selection{
+    color: red;
+    background-color: white;
+}
+.user-text{
+    color: white;
+    background-color: transparent;
+    margin: 2px;
+    margin-top: 10px;
+    position: relative;
+    left: 1cm;
+    bottom: 1cm;
+    width: 93%;
+}
+
+.instant-ans{
+    position: relative;
+    color: white;
+    background-color: transparent;
+    left: 1cm;
+    bottom: 1cm;
+    width: 93.2%;
+    margin-bottom: 0%;
+    margin-top: 10px;
+    font-family: 'Teko', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 6px;
 }
 
 .user-logo{
@@ -58,15 +109,41 @@
     border-radius: 20px;
     padding: 0.5cm;
 }
+.output ::selection{
+    color: yellowgreen;
+    background-color: white;
+}
 
 
 .short{
     background-color: yellowgreen;
-    padding: 0.25cm;
+    padding: 5px;
+    padding-bottom: 0%;
     min-width: 8cm;
-    min-height: 1cm;
-    max-height: 2.5cm;
+    min-height: 0.4cm;
+    max-height: 1.2cm;
     border-radius: 20px;
+}
+
+.exr-wt{
+    color: honeydew;
+    background-color: transparent;
+    max-width: 170px;
+    font-weight: bold;
+}
+
+.dir-ans{
+    color: honeydew;
+    background-color: transparent;
+    font-weight: bolder;
+    font-size: 38px;
+}
+
+.brief-abt{
+    color: honeydew;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .ans-box{
@@ -78,11 +155,103 @@
     padding: 0.3cm;
 }
 
+
+
 .image{
-    background-color: green;
+    background-color: black;
     width: 2.5cm;
     height: 2.5cm;
     position: relative;
-    float: right;
+    /* float: right; */
+    border-radius: 15px;
+    margin: 5px;
+    /* position: relative;
+    right: 0.1cm;
+    top: 0.1cm; */
+}
+
+.highlight{
+    color: white;
+    background-color: transparent;
+    font-family: 'Teko',sans-serif;
+}
+
+.stats{
+    color: white;
+    min-height: 1.3cm;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: green;
+    padding-left: 2%;
+    display: flex;
+    margin: 2px;
+    align-self: center;
+    font-family: 'Teko',sans-serif;
+}
+
+.features{
+    background-color: yellowgreen;
+    height: 84px;
+    width: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: center;
+    padding: 8px;
+    border-radius: 10px;
+    margin-left: 8px;
+    /* width: 80%; */
+}
+
+
+.features ::-webkit-scrollbar-thumb{
+    background-color: blue;
+    border-radius: 20px;
+    height: 2px;
+    width: 2px;
+}
+
+.features ::-webkit-scrollbar-thumb:hover{
+    background-color: rgb(153, 140, 140);
+    border-radius: 20px;
+    display: flexbox;
+}
+
+.minis{
+    background-color: blue;
+    text-align: center;
+    color: white;
+    padding: 1px;
     border-radius: 5px;
+    margin: 3px;
+}
+
+.image-container{
+    color: white;
+    background-color: yellowgreen;
+    border-radius: 10px;
+    margin-left: 10px;
+    width: 104px;
+    height: 104px;
+    float: right;
+}
+
+.make{
+    color: white;
+    background-color: yellowgreen;
+    border-radius: 10px;
+    margin-left: 10px;
+    width: 20%;
+}
+
+.extras{
+    width: 100%;
+    background-color: transparent;
+}
+
+.wide-ans-box{
+    background-color: green;
+    color: honeydew;
+    margin-top: 0.22cm;
+    border-radius: 20px;
+    padding: 5px;
 }
